@@ -294,7 +294,7 @@ class BrnAppBar extends PreferredSize {
       backgroundColor: _defaultConfig.backgroundColor,
       actions: _wrapActions(_defaultConfig),
       bottom: _buildBarBottom(_defaultConfig),
-      brightness: brightness ?? Brightness.light,
+      // brightness: brightness ?? Brightness.light,
       toolbarOpacity: toolbarOpacity,
       bottomOpacity: bottomOpacity,
       flexibleSpace: flexibleSpace,
@@ -302,7 +302,7 @@ class BrnAppBar extends PreferredSize {
       shape: shape,
       iconTheme: iconTheme,
       actionsIconTheme: actionsIconTheme,
-      textTheme: textTheme,
+      // textTheme: textTheme,
       primary: primary,
       excludeHeaderSemantics: excludeHeaderSemantics,
     );
